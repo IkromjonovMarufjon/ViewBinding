@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_nav"
+    app:startDestination="@id/secondFragment">
+
+    <fragment
+        android:id="@+id/exampleFragment"
+        android:name="com.example.viewbindingexample.fragments.ExampleFragment"
+        android:label="ExampleFragment" />
+    <fragment
+        android:id="@+id/secondFragment"
+        android:name="com.example.viewbindingexample.fragments.SecondFragment"
+        android:label="screen_second"
+        tools:layout="@layout/screen_second" />
+</navigation>

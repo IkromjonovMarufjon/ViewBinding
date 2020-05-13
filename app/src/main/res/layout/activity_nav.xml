@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fragment android:id="@+id/mainNavHost"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:name="androidx.navigation.fragment.NavHostFragment"
+    app:defaultNavHost="true"
+    tools:context=".NavActivity"
+    app:navGraph="@navigation/app_nav"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"/>
+
+<!--
+<fragment android:id="@+id/mainNavHost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:name="androidx.navigation.fragment.NavHostFragment"
+    app:defaultNavHost="true"
+    tools:context=".ui.MainActivity"
+    app:navGraph="@navigation/app_nav"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" />
+-->
